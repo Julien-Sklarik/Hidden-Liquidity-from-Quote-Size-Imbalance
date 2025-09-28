@@ -2,7 +2,7 @@ Hidden Liquidity from Quote Size Imbalance
 
 A research project that infers a hidden liquidity parameter from best quote sizes and mid price changes in limit order books. Built from work conducted at UC Berkeley and expanded into a clean reusable package.
 
-What this project delivers
+What this project delivers:
 one ready to use Python package with clean functions for data prep, signal estimation, and model fit
 one simple runner script for quick checks on a ticker
 one example dataset to test the full path
