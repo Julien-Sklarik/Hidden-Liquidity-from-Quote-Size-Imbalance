@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hidden_liquidity"
+version = "0.1.0"
+description = "Hidden liquidity from quote size imbalance"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Your Name"}]
+dependencies = [
+    "pandas",
+    "numpy",
+    "scipy",
+]
+
+[project.urls]
+homepage = "https://example.com"
