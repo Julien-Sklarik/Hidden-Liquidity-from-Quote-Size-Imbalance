@@ -51,13 +51,3 @@ Library map
     data sample_quotes.csv            synthetic example
     notebooks research_hidden_liquidity_ucb.ipynb    cleaned research notebook
     tests test_core.py                unit test
-
-
-Suggested next steps
-
-    plug in your own WRDS or proprietary quotes
-    extend the model fit to per exchange or per symbol daily
-    add a simple trading rule such as
-        go long when u i j is above one half
-        short otherwise
-        then track hit ratio by bucket
